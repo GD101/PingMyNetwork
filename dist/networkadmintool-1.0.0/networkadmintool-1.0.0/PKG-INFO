@@ -1,0 +1,18 @@
+Metadata-Version: 2.2
+Name: NetworkAdminTool
+Version: 1.0.0
+Summary: Network Administration Tool for IT Administrators
+Author: Glenn Dbritto
+Author-email: glenndbritto101@gmail.com
+Keywords: network,administration,cisco,juniper,alcatel
+Requires-Python: >=3.7
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: paramiko
+Requires-Dist: netmiko
+Dynamic: author
+Dynamic: author-email
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

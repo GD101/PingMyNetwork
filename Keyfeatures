@@ -1,0 +1,49 @@
+Key Features:
+
+Device Management
+
+Add devices manually or import from Excel spreadsheets
+Maintain an inventory of network switches with status tracking
+Support for Cisco, Alcatel, and Juniper switches
+
+
+Network Operations
+
+Ping functionality for checking connectivity across VLANs
+Temperature monitoring for all switches
+Network loop detection through ping analysis
+Identification of disconnected ports
+VLAN scanning capability
+
+
+Logging System
+
+Detailed, numbered log format
+Configurable logging options
+Export capability for record keeping
+
+
+Clean UI Design
+
+Tab-based interface for easy navigation
+Progress indicators for operations
+Responsive, modern design with proper styling
+Clear separation of device list and operation results
+
+
+
+Technical Implementation:
+
+Built with Python and Tkinter for compatibility with Windows 10/11
+Uses Netmiko/Paramiko for secure device connections
+Multithreaded operations to maintain UI responsiveness
+Proper error handling and status feedback
+Settings persistence between sessions
+
+Building and Deploying:
+The package includes:
+
+The main application code
+A setup script for installing dependencies
+A build script to create a standalone Windows executable
+Comprehensive usage instructions
